@@ -1,0 +1,50 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #f3f3f3;
+}
+
+.loginCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 10px;
+  height: 300px;
+  width: 500px;
+  background-color: #fff;
+}
+
+.loginCard svg {
+  color: #ffd32a;
+  background-color: #fff;
+  margin: 0;
+  font-size: 120px;
+
+}
+
+.signInBtn {
+  background-color: #ffd32a;
+  color: #fff;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  height: 36px;
+
+}
+
+.signInBtn svg {
+  background-color: transparent;
+  color: #fff;
+  font-size: 22px;
+  margin-right: 10px;
+  margin-bottom: -5px;
+}

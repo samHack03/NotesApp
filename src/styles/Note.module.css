@@ -1,0 +1,77 @@
+.note {
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  background-color: #fff;
+  min-width: 300;
+  position: relative;
+}
+
+.note h2 {
+  font-size: 22px;
+  word-wrap: break-word;
+}
+.note p {
+  margin: 15px 0;
+  word-wrap: break-word;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.iconButton {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  padding: 5px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-weight: 500;
+}
+.iconButton:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.note textarea,
+.note input {
+  border: none;
+  width: 100%;
+  outline: none;
+  word-break: break-all;
+  font-size: 22px;
+}
+
+.note input {
+  font-weight: 700;
+}
+.note textarea {
+  display: inline-block;
+  resize: none;
+  font-size: 15px;
+  margin-top: 15px;
+  height: 120px;
+  margin-bottom: 40px;
+}
+.note textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.note .createdDate {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 1px;
+  font-weight: 500;
+  color: #666565;
+  height: 40px;
+}
